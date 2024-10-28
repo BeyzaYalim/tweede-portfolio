@@ -1,30 +1,152 @@
-/*header{ grid-area: header}*/
+/*Ik heb via grid generator een grid template gemaakt. De code die ik daar kreeg heb ik
+toegepast in mijn HTML en CSS. Helaas werkt het niet zoals ik het wil.
+Mijn header zit in de grid maar mijn afbeelding, stuk tekst en footer vallen er buiten. Heb meerdere
+mensen gevraagd en zelf heel veel dingen uitgeprobeerd. Helaas lukt het niet om de Lay-out te krijgen dat ik wil.
+met flex heb ik geprobeerd om ze op de juiste plek te zetten maar dit is ook niet gelukt.
+ */
 
-/*.mijnnaam{ }*/
+/*.parent {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(5, 1fr);*/
+/*    grid-template-rows: repeat(5, 1fr);*/
+/*    grid-column-gap: 0px;*/
+/*    grid-row-gap: 0px;*/
+/*    height: 15vh;*/
+/*}*/
 
-/*.buttons{ column-gap: normal;*/
-/*    justify-content: space-between}*/
+/*.mijnnaam { grid-area: 1 / 1 / 2 / 2; }*/
+/*.Inhoud { grid-area: 1 / 2 / 6 / 6; }*/
+/*.zwart { grid-area: 2 / 3 / 4 / 3; }*/
+/*.schrijven { grid-area: 2 / 3 / 5 / 6; }*/
+/*.Gegevens { grid-area: 5 / 1 / 6 / 6; }*/
 
-.parent {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-}
 
-.mijnnaam { grid-area: 1 / 1 / 2 / 2; }
-.Home { grid-area: 1 / 2 / 2 / 3; }
-.Portfolio { grid-area: 1 / 3 / 2 / 4; }
-.Projects { grid-area: 1 / 4 / 2 / 5; }
-.About { grid-area: 1 / 5 / 2 / 6; }
-.Contact { grid-area: 1 / 6 / 2 / 7; }
-.div7 { grid-area: 2 / 1 / 6 / 3; }
-.div8 { grid-area: 2 / 3 / 6 / 7; }
-.div9 { grid-area: 6 / 1 / 7 / 3; }
-.div10 { grid-area: 6 / 3 / 7 / 5; }
-.div11 { grid-area: 6 / 5 / 7 / 7; }
+/*.parent{ text-align: center;}*/
+/*.mijnnaam{ display: flex;*/
+/*    justify-content: center;*/
+/*           color: white;*/
+/*height: 30px;*/
+/*}*/
 
+/* om de Navbar normaal te krijgen*/
+/*nav{*/
+/*    display:flex;*/
+/*    column-gap: 15px;*/
+/*    text-align: center;*/
+/*    justify-content: center;*/
+/*        margin: 3px;*/
+/*        padding-left: 3px;*/
+/*        padding-right: 3px;*/
+/*        border: 3px white solid;*/
+/*        max-width: 100%;*/
+/*        border-radius:10px ;*/
+/*}*/
+/*nav a {*/
+/*    text-decoration: none;*/
+/*    color: black;*/
+
+/*}*/
+
+/* div ul {*/
+/*    padding: 10px;*/
+/*    background-color: lightgray;*/
+/*    text-align: center;*/
+/*    border-radius: 5px;*/
+/*    transition: background-color 0.3s ease;*/
+/*     box-shadow: 0px 0px 20px white;*/
+/*}*/
+
+/*ul a:hover{*/
+/*    background-color: white;*/
+/*}*/
+
+/*nav ul { display: flex;*/
+/*    list-style-type: none; !* Verwijdert opsommingstekens *!*/
+/*    padding: 10px;           !* Verwijdert standaard opvulling *!*/
+/*    margin: 10px;            !* Verwijdert standaard marge *!*/
+/*    display: flex;        !* Zorgt ervoor dat de li's naast elkaar worden weergegeven *!*/
+/*}*/
+/*nav ul li { display: flex;*/
+/*    gap: 10px;*/
+/*    margin-right: 80px;   !* Voeg wat ruimte toe tussen de links, indien gewenst *!*/
+/*    margin-left: 80px;*/
+/*}*/
+/*!*om de Navbar normaal te krijgen*!*/
+
+/*body{*/
+/*    margin:0;*/
+/*    background-image: linear-gradient(black, darkgray, grey, lightgray, white);*/
+/*}*/
+
+/*footer { display: flex;*/
+/*    column-gap: 20px;*/
+/*    text-align: center;*/
+/*    justify-content: space-between;*/
+/*    color: black;*/
+/*    padding: 5px;*/
+
+/*}*/
+/*footer { display: flex;*/
+/*    column-gap: 20px;*/
+/*    text-align: center;*/
+/*    justify-content: space-between;*/
+/*    color: black;*/
+/*    padding: 5px;*/
+/*    height: 10vh;*/
+/*}*/
+
+/*main{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    height: 75vh;*/
+/*}*/
+
+/*.zwart {*/
+/*    flex: 1.5;*/
+/*    width: 20vw;*/
+/*    height: 50vh;*/
+/*    margin: 2%;*/
+/*    !*width: 400px;        !* Genişlik *!*!*/
+/*    !*height: 300px;       !* Yükseklik - 'heigt' yazım hatası düzeltildi *!*!*/
+/*    overflow: hidden;    !* Taşmayı önlemek için *!*/
+/*    border: 5px solid black; !* Sınır: 5px kalınlığında siyah bir kenar *!*/
+/*    overflow: hidden;*/
+
+/*}*/
+
+
+/*.zwart img {display: grid;*/
+/*    width: 100%;        !* Resmi konteynerin genişliği kadar yapar *!*/
+/*    height: 300%;       !* Resmi konteynerin yüksekliği kadar yapar *!*/
+/*    object-fit: cover;  !* Resmi kapsayacak şekilde fit eder *!*/
+/*}*/
+
+/*.img{*/
+/*    width: 400px;        !* Genişlik *!*/
+/*    height: 300px;       !* Yükseklik - 'heigt' yazım hatası düzeltildi *!*/
+/*    object-fit: cover;  !* Resmi kapsayacak şekilde fit eder *!*/
+/*    border: 5px solid black; !* Sınır: 5px kalınlığında siyah bir kenar *!*/
+/*    overflow: hidden;    !* Taşmayı önlemek için *!*/
+/*}*/
+/*.img{*/
+/*    width: 100%;        !* Genişlik *!*/
+/*    height: 100%;       !* Yükseklik - 'heigt' yazım hatası düzeltildi *!*/
+/*    object-fit: cover;  !* Resmi kapsayacak şekilde fit eder *!*/
+/*    border: 5px solid black; !* Sınır: 5px kalınlığında siyah bir kenar *!*/
+/*    overflow: hidden;    !* Taşmayı önlemek için *!*/
+/*}*/
+/*.schrijven{*/
+/*    flex: 2;*/
+/*    border: 5px solid black;*/
+/*    height: 70vh;*/
+/*    margin: 2%;*/
+/*}*/
+/*.zwart{*/
+/*    object-fit: cover;*/
+/*    border:100px;*/
+/*    width: 100px;*/
+/*    heigt:100px;*/
+/*}*/
 
 /*dit is een andere grid css code*/
 /*.parent {*/
@@ -40,29 +162,148 @@
 /*.div3 { grid-area: 2 / 3 / 6 / 7; }*/
 /*.div4 { grid-area: 6 / 1 / 7 / 7; }*/
 
+/*header{ grid-area: header}*/
+
+/*.mijnnaam{ }*/
+
+/*.buttons{ column-gap: normal;*/
+/*    justify-content: space-between}*/
+
+/*.parent {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(6, 1fr);*/
+/*    grid-template-rows: repeat(6, 1fr);*/
+/*    grid-column-gap: 10px;*/
+/*    grid-row-gap: 20px;*/
+/*}*/
+
+/*.mijnnaam { grid-area: 1 / 1 / 2 / 2; }*/
+/*.Home { grid-area: 1 / 2 / 2 / 2; }*/
+/*.Portfolio { grid-area: 1 / 3 / 2 / 4; }*/
+/*.Projects { grid-area: 1 / 4 / 2 / 5; }*/
+/*.About { grid-area: 1 / 5 / 2 / 6; }*/
+/*.Contact { grid-area: 1 / 6 / 2 / 7; }*/
+/*.div7 { grid-area: 2 / 1 / 6 / 3; }*/
+/*.div8 { grid-area: 2 / 3 / 6 / 7; }*/
+/*.LinkedIn { grid-area: 6 / 1 / 7 / 3; }*/
+/*.Mail { grid-area: 6 / 3 / 7 / 5; }*/
+/*.Nummer { grid-area: 6 / 5 / 7 / 7; }*/
 
 
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    /*height: 100vh;*/
+}
+
+.mijnnaam { grid-area: 1 / 1 / 2 / 2; }
+.Inhoud { grid-area: 1 / 2 / 6 / 6; }
+.zwart { grid-area: 2 / 3 / 4 / 3; }
+.schrijven { grid-area: 2 / 3 / 5 / 6; }
+.Gegevens { grid-area: 5 / 1 / 6 / 6; }
 
 
-/* om de Navbar normaal te krijgen*/
+.parent{ text-align: center;}
+.mijnnaam{ display: flex;
+    justify-content: center;
+    color: white;
+    height: 30px;
+}
+
+header{
+    height: 10vh;
+
+}
+
 nav{
     display:flex;
-    justify-content: space-evenly;
+    column-gap: 15px;
+    text-align: center;
+    justify-content: center;
+    margin: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border: 3px white solid;
+    max-width: 100%;
+    border-radius:10px ;
 }
 nav a {
     text-decoration: none;
-    color: inherit;
+    color: black;
+
 }
 
-nav div {
+ul a{
     padding: 10px;
     background-color: lightgray;
     text-align: center;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    box-shadow: 0px 0px 20px white;
 }
 
-nav a:hover div {
-    background-color: darkgray;
+ul a:hover{
+    background-color: white;
+}
+
+nav ul { display: flex;
+    list-style-type: none; /* Verwijdert opsommingstekens */
+    padding: 1px;           /* Verwijdert standaard opvulling */
+    margin: 10px;            /* Verwijdert standaard marge */
+    display: flex;        /* Zorgt ervoor dat de li's naast elkaar worden weergegeven */
+}
+nav ul li { display: flex;
+    gap: 10px;
+    margin-right: 80px;   /* Voeg wat ruimte toe tussen de links, indien gewenst */
+    margin-left: 80px;
 }
 /*om de Navbar normaal te krijgen*/
+
+body{
+    margin:0;
+    background-image: linear-gradient(black, darkgray, grey, lightgray, white);
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+    align-items: start;
+}
+
+.zwart{
+    flex: 1.5;
+    width: 40vw;
+    height: 50vh;
+    margin: 2%;
+}
+
+.schrijven{
+    flex: 2;
+    border: 5px solid black;
+    height: 70vh;
+    margin: 2%;
+}
+
+.img{
+    width: 100%;        /* Genişlik */
+    height: 100%;       /* Yükseklik - 'heigt' yazım hatası düzeltildi */
+    object-fit: cover;  /* Resmi kapsayacak şekilde fit eder */
+    border: 5px solid black; /* Sınır: 5px kalınlığında siyah bir kenar */
+}
+
+footer { display: flex;
+    column-gap: 20px;
+    text-align: center;
+    justify-content: space-between;
+    color: black;
+    /*padding: 5px;*/
+    height: 5vh;
+}
+
+section p{ text-align: center;
+font-size: x-large;}
