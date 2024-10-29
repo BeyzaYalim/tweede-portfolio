@@ -5,3 +5,6 @@
         <p>Mail:s1212645@student.windesheim.nl</p>
         <p>Nummer:06-39690815 </p>
     </footer>
+</div>
+
+</div>

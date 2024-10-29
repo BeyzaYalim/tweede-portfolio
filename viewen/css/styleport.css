@@ -196,7 +196,7 @@ met flex heb ik geprobeerd om ze op de juiste plek te zetten maar dit is ook nie
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    /*height: 100vh;*/
+    height: 100vh;
 }
 
 .mijnnaam { grid-area: 1 / 1 / 2 / 2; }
@@ -307,3 +307,58 @@ footer { display: flex;
 
 section p{ text-align: center;
 font-size: x-large;}
+
+
+/* tabel css */
+
+
+
+.container  {
+    max-width: 700px;
+    margin-right: 70px;
+    margin-left: 70px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+/* contact formulier css */
+
+
