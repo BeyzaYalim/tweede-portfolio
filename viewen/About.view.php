@@ -7,9 +7,11 @@ require 'layout/header.php'; ?>
     </div>
     <div class="schrijven">
         <section>
-            <p><bold>Welkom op mijn Portfolio</bold></p>
-            <p>Mijn naam is Beyza Yalim, een 26 jarige software developer met een passie voor het creeren van innovatieve en gebruikersvriendelijke oplossingen<br></p>
-            <p>Met een achtergrond in software ontwikkeling </p>
+
+             <h1> Hi! </h1>
+            <p> Mijn naam is Beyza. Ik ben 26 jaar oud en volg de opleiding Software Development. </p>
+            <p> Hier vertel ik verder over mijn hobby's/ passie en persoonlijke vaardigheden. </p>
+
         </section>
     </div>
 </main>

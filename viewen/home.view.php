@@ -11,7 +11,7 @@ require 'layout/header.php'; ?>
             <section>
                 <p><bold>Welkom op mijn Portfolio</bold></p>
                 <p>Mijn naam is Beyza Yalim, een 26 jarige software developer met een passie voor het creeren van innovatieve en gebruikersvriendelijke oplossingen<br></p>
-                <p>Met een achtergrond in software ontwikkeling </p>
+                <p> etc. etc. </p>
             </section>
         </div>
     </main>

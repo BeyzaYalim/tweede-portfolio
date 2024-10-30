@@ -361,4 +361,85 @@ button:hover {
 
 /* contact formulier css */
 
+/*log in plek*/
+.inloggen {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
 
+.projecten {
+    width: auto;
+}
+/*log in plek*/
+
+/* project form */
+/* styles.css */
+
+/** {*/
+/*    box-sizing: border-box;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    font-family: Arial, sans-serif;*/
+/*}*/
+
+/*body {*/
+/*    background-color: #f3f4f6;*/
+/*    display: flex;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*.form-container {*/
+/*    background-color: #ffffff;*/
+/*    padding: 20px;*/
+/*    width: 100%;*/
+/*    max-width: 400px;*/
+/*    border-radius: 8px;*/
+/*    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*h2 {*/
+/*    color: #333333;*/
+/*    margin-bottom: 20px;*/
+/*    font-size: 24px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*form label {*/
+/*    display: block;*/
+/*    margin-bottom: 5px;*/
+/*    font-weight: bold;*/
+/*    color: #555555;*/
+/*}*/
+
+/*form input[type="text"],*/
+/*form textarea {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    margin-bottom: 15px;*/
+/*    border: 1px solid #ddd;*/
+/*    border-radius: 4px;*/
+/*    font-size: 16px;*/
+/*    color: #333;*/
+/*}*/
+
+/*form textarea {*/
+/*    resize: vertical;*/
+/*}*/
+
+/*form button {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    background-color: #4CAF50;*/
+/*    border: none;*/
+/*    border-radius: 4px;*/
+/*    color: #ffffff;*/
+/*    font-size: 16px;*/
+/*    cursor: pointer;*/
+/*    transition: background-color 0.3s;*/
+/*}*/
+
+/*form button:hover {*/
+/*    background-color: #45a049;*/
+/*}*/
+/*projecten form*/
