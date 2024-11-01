@@ -12,4 +12,6 @@ try {
     die("Kon geen verbinding maken: " . $e->getMessage());
 }
 
+/*eerst had ik de verkeerde versie van MySQL. Deze verwijderd en opnieuw gedownload. */
+
 

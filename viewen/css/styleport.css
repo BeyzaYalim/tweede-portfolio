@@ -188,7 +188,7 @@ met flex heb ik geprobeerd om ze op de juiste plek te zetten maar dit is ook nie
 /*.LinkedIn { grid-area: 6 / 1 / 7 / 3; }*/
 /*.Mail { grid-area: 6 / 3 / 7 / 5; }*/
 /*.Nummer { grid-area: 6 / 5 / 7 / 7; }*/
-
+/*hierboven zie je hele andere gridtemplate. dit is niet mijn eerste protfoliowebsite. hiervoor heb ik misschien 4 andere gemaakt om te oefenen. Het kan zijn dat je een andere taal ziet. Soms helpt het mij om het ook in een andere taal te bekijken om het te leren.*/
 
 .parent {
     display: grid;
@@ -257,16 +257,18 @@ nav ul { display: flex;
 }
 nav ul li { display: flex;
     gap: 10px;
-    margin-right: 80px;   /* Voeg wat ruimte toe tussen de links, indien gewenst */
+    margin-right: 80px;
     margin-left: 80px;
 }
 /*om de Navbar normaal te krijgen*/
+/*mijn navbar plakte aan elkaar. Nu is het uitelkaar en heb er ook een shadow aan toegevoegd. het zag er dan beter uit voor mijn gevoel*/
 
 body{
     margin:0;
     background-image: linear-gradient(black, darkgray, grey, lightgray, white);
 }
 
+/* hierboven heb ik een kleurovergang gemaakt. stelt niet veel voor maar ik wil dit uitproberen*/
 
 main{
     display: flex;
@@ -288,14 +290,14 @@ main{
     height: 70vh;
     margin: 2%;
 }
-
+/* de foto was zo groot en moest veel puzzelen om het op de juiste formaat en juiste plek te hebben ondanks het in mijn grid staat*/
 .img{
-    width: 100%;        /* Genişlik */
-    height: 100%;       /* Yükseklik - 'heigt' yazım hatası düzeltildi */
-    object-fit: cover;  /* Resmi kapsayacak şekilde fit eder */
-    border: 5px solid black; /* Sınır: 5px kalınlığında siyah bir kenar */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid black;
 }
-
+/*footer ging telkens helemaal naar beneden of helemaal naar boven. waardoor ik moest scrollen. dit wil ik niet dus heb ik het een heigt gegeven samen met andere om het uiteindelijk 100 te krijgen*/
 footer { display: flex;
     column-gap: 20px;
     text-align: center;
@@ -309,9 +311,7 @@ section p{ text-align: center;
 font-size: x-large;}
 
 
-/* tabel css */
-
-
+/* form voor mijn contactformulier die ik eindelijk naar wens heb*/
 
 .container  {
     max-width: 700px;
@@ -362,6 +362,7 @@ button:hover {
 /* contact formulier css */
 
 /*log in plek*/
+/*dit zijn de codes om mijn login plek op de juiste positie te krijgen*/
 .inloggen {
     margin-left: 300px;
     margin-right: 300px;
@@ -374,7 +375,7 @@ button:hover {
 /*log in plek*/
 
 /* project form */
-/* styles.css */
+/*wordt beneden uitgelegd*/
 
 /** {*/
 /*    box-sizing: border-box;*/
@@ -443,3 +444,4 @@ button:hover {
 /*    background-color: #45a049;*/
 /*}*/
 /*projecten form*/
+/* deze heb ik geprobeerd maar dit was niet wat ik wil op mijn projectenpagina. Het zag er wel mooi uit maar dit wil ik op mijn adminpage wanneer ik inlog. Dus ik heb het weggehaald. er komt hier nog iets moois. slideshow van mijn projecten bijvoorbeeld*/

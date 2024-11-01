@@ -24,3 +24,5 @@ try {
     echo "Database error: " . $e->getMessage();
 }
 ?>
+
+<!--connectie gemaakt met databases door include. Berichten kon ik eerst niet verwijderen. Waar contact_id stond was eerst delete. moest dit veranderen. Bij $get moest delete. Ik probeer dit stukje nog beter te begrijpen om beter te kunnen vertellen-->

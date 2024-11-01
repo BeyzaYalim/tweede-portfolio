@@ -86,7 +86,7 @@
 <!--    <h2><a> href="Portfolio">Portfolio</a></h2>-->
 <!--    <h2><a> href="about">About</a></h2>-->
 <!--    <h2><a> href="contact">Contact</a></h2>-->
-
+<!--/* hierboven staat hoe ik ben begonnen met HTML en CSS. Het probleem was dat mijn grid telkens niet werkte hoe ik het wil. De grid blijft telkens maar in de header. en de elementen die ik er in doe gaan niet mee met grid. Later met flexbox op de juiste plek gezet. het kan zijn dat als je mijn pagina inspecteert je de grid alleen in de header ziet. ik moet hier meer mee oefenen*/-->
 
 <?php
 
@@ -121,3 +121,5 @@ switch ($url) {
         break;
 }
 
+/* boven de switch case een function aangemaakt want anders was mijn homepagina niet te zien.
+hier require ik mijn controllers. ik wist niet hoe het anders moet zo had ik het ook in de les gedaan*/

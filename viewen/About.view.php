@@ -20,3 +20,5 @@ require 'layout/header.php'; ?>
 <?php require 'layout/footer.php';
 
 ?>
+
+<!--/* de footer en de header zijn op alle paginas hetzelfde waardoor ik het kon met require kon werken*/-->
